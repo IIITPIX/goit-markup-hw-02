@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #2e2f42;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -11,7 +11,7 @@ a.logo {
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
-  line-height: 21px;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
 }
 
@@ -24,36 +24,54 @@ a {
   text-decoration-line: none;
 }
 
-.navMenu li {
+.nav-menu li {
   font-weight: 500;
+}
+
+.nav-menu li a:hover {
+  color: #404bbf;
+}
+
+.nav-menu li a:active,
+.nav-menu li a:focus {
+  color: #404bbf;
+  text-decoration: underline;
 }
 
 li {
   list-style: none;
 }
 
-.headerAddress li a {
-  font-weight: 400;
+.header-address li a {
   color: #434455;
+}
+
+.header-address li a:hover {
+  color: #404bbf;
 }
 
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07143;
   text-align: center;
   color: #ffffff;
 }
 
-.solutionSection {
+.solution-section {
   background-color: #2e2f42;
 }
 
-.orderButton {
+.order-button {
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
   letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  background-color: #404bbf;
 }
 
 h3 {
@@ -61,37 +79,33 @@ h3 {
   font-size: 20px;
 }
 
-.ourFeatures li p {
-  font-weight: 400;
-}
-
-.ourTeam {
+.our-team {
   background-color: #f4f4fd;
 }
 
-.ourTeam h2,
-.ourPortfolio h2 {
+.our-team h2,
+.our-portfolio h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11111;
   text-align: center;
 }
 
-.ourTeam ul li h3 {
+.our-team ul li h3 {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
 }
 
-.ourTeam ul li p {
+.our-team ul li p {
   text-align: center;
 }
 
-.ourTeam ul li {
+.our-team ul li {
   background-color: #ffffff;
 }
 
-.ourPortfolio ul li h3 {
+.our-portfolio ul li h3 {
   font-weight: 500;
   font-size: 20px;
 }

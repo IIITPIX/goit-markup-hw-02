@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: #2e2f42;
+  color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -44,9 +44,11 @@ li {
 
 .header-address li a {
   color: #434455;
+  font-style: normal;
 }
 
-.header-address li a:hover {
+.header-address li a:hover,
+.header-address li a:focus {
   color: #404bbf;
 }
 
@@ -77,6 +79,7 @@ h1 {
 h3 {
   font-weight: 500;
   font-size: 20px;
+  color: #2e2f42;
 }
 
 .our-team {
@@ -89,6 +92,7 @@ h3 {
   font-size: 36px;
   line-height: 1.11111;
   text-align: center;
+  color: #2e2f42;
 }
 
 .our-team ul li h3 {
@@ -116,5 +120,5 @@ h3 {
 
 .footer a,
 .footer p {
-  color: #ffffff;
+  color: #f4f4fd;
 }
